@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.gradient{
+    background-image: linear-gradient(red, blue, green, yellow);
+    transition: all 3s;
+    /* transform: skew(20deg, 100deg); */
+}
+.gradient:hover{
+    /* transform: translate(100px, 0px); */
+    transform: rotate(180deg);
+}
+.gradient2{
+    background-image: linear-gradient(to top, blue, green );
+    transition: all 3s;
+}
+.gradient3{
+    background-image: linear-gradient(to bottom left, red 70%, yellow 30%)
+}
+.gradient4{
+    background-image: linear-gradient(to bottom right, green, orange)
+}
+.gradient5{
+    background-image: conic-gradient(red, yellow);
+}
+.filter{
+    /* filter: grayscale(100%); */
+    /* filter: brightness(10%); */
+    filter: contrast(10%);
+}
+button{
+    width: 100px;
+    height: 150px;
+    background-color: green;
+    color: white;
+    padding: 10px 25px;
+     transition: all 3s;
+    /* transition-delay: 2s;
+    transition-timing-function: ease-in-out; */
+}
+button:hover{
+    /* width: 200px;
+    background-color: blue; */
+    transform: scale(2);
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+
+.flex-items {
+    width: 45%;
+    background-color: aqua;
+    margin-bottom: 10px;
+    padding: 30px 30px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.space-between {
+    justify-content: space-between;
+}
+
+.learn-btn {
+    margin-top: 80%;
+}
+.animation{
+    background-color: green;
+    animation: changeBg 3s forwards;
+}
+
+@keyframes changeBg {
+    0%{background-color: green;}
+    25%{background-color: red;}
+    50%{background-color: purple;}
+    100%{background-color: blue;}
+}
