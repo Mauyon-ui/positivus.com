@@ -20,7 +20,7 @@
 }
 .positivus-icon{
     padding-left: 0px;
-    width: 10%;
+    width: 100%;
 }
 .menu-link{
     display: inline;
@@ -1252,9 +1252,6 @@
     margin-right: 120px;
     font-size: 25px;
 }
-.featured-1{
-    /* padding-right: 0px; */
-}
 .featured-2{
     padding-top: 40px;
 }
@@ -1266,11 +1263,6 @@
     color: #ffffff;
     font-size: 15px;
     margin-top: 40px;
-}
-.featured-percentages{
-    /* display: flex;
-    flex-wrap: wrap; 
-    gap: 20px;    */
 }
 .f-percent1{
     display: flex;   
