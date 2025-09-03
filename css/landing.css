@@ -792,20 +792,29 @@
 }
 
 /* About us page */
+.teamwork-image{
+    border-radius: 40px;
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
 .together{
     background-color: #F3F3F3;
-    border-radius: 10px;
+    border-radius: 20px;
     margin: 20px 130px 20px 70px;
-    height: 400px;
+    /* height: 400px; */
 }
 .together-1{
-    padding: 60px 30px 0px 700px;
+    padding: 80px 30px 0px 80px;
 }
 .together-2{
     font-size: 40px;
 }
 .together-3{
     padding-top: 30px;
+}
+.container{
+    margin-left: 0px;
 }
 .aboutnav{
     background-color: #b9ff66;
@@ -984,6 +993,7 @@
     border-radius: 30px;
     margin-left: 80px;
     padding: 40px 40px 40px 40px;
+    margin-right: 0px;
 }
 .core-4{
     width: 40%;
@@ -1010,9 +1020,17 @@
     padding-top: 30px;    
 }
 .corehr{
-    margin-right: 260px;
+    margin-right: 0px;
     height: 1px;           
     /* border: none; */
+}
+.innovation-img{
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.collaboration-img{
+    border-radius: 20px;
+    margin-top: 20px;
 }
 .founder-remarks{
     background-color: #191A23;
@@ -1329,7 +1347,7 @@
 .stories-container4{
     padding: 20px;
 }
-.container{
+.case-study{
     margin-left: 80px;
 }
 .proposal-success{
