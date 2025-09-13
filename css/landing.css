@@ -1572,19 +1572,117 @@
 }
 .blog-para{
     text-align: justify;
-    margin-left: 300px;
+    margin-left: 350px;
+    margin-top: 50px;
+    width: 50%;
 }
 .sarah-content-1{
     font-size: 17px;
-    text-align: justify;
     word-spacing: 5px;
 }
 .blog-para-1{
     text-align: justify;
-    margin-left: 300px;
+    margin-left: 350px;
     font-size: 14px;
     margin-top: 30px;
+    width: 50%;
 }
+.strike-div{
+    margin-left: 350px;
+    margin-top: 30px;
+    width: 50%;
+}
+.strike-div-1{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+}
+.strike-div-2{
+    background-color: #b9ff66;
+    padding: 2px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+.strike-div-3{
+    font-size: 20px;
+    text-align: justify;
+    word-spacing: 10px;
+}
+.instance-div{
+    margin-top: 30px
+}
+.fact-div{
+    justify-content: space-evenly;
+    align-content: center;
+}
+.fact-1{
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 1px 3px;
+    padding: 20px;
+    width: 40%;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.fact-2{
+    background-color: #b9ff66;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    width: 50%;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.fact-3{
+    background-color: #d3d3d3;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    width: 50%;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+.fact-4{
+    background-color: #292A32;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    color: #ffffff;
+    width: 40%;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.fact-percentage-1{
+    color: #B9FF66;
+}
+.fact-percentage-2{
+    font-size: 28px;
+}
+.real-world-div{
+    margin-left: 350px;
+    margin-top: 40px;
+    text-align: justify;
+    width: 50%;
+}
+.key-div{
+    margin-left: 350px;
+    margin-top: 40px;
+    text-align: justify;
+    width: 50%;
+}
+.key{
+    margin-bottom: 20px;
+}
+.choose-div{
+    margin-left: 350px;
+    margin-top: 40px;
+    text-align: justify;
+    width: 50%;
+}
+
 
 
 
