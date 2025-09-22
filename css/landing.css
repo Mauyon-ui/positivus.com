@@ -67,21 +67,21 @@ html{
 }
 
 .dig-1 {
-    margin-left: 5rem;   
+    /* margin-left: 5rem;    */
 }
 
 .digfont {
-    font-size: 4rem;   
+    font-size: 3.9rem;   
     color: #191A23;
 }
 
 .dig-2 {
-    margin-left: 5rem;   
+    /* margin-left: 5rem;    */
 }
 
 #dig-3 {
     color: #fdfdfd;
-    margin-left: 4rem;   /* 70px */
+    /* margin-left: 4rem;   70px */
     margin-top: 2rem;   /* 25px */
     border-radius: 10px;     /* keep px */
     padding: 1rem 2rem;  /* 15px 25px */
@@ -97,7 +97,7 @@ html{
 }
 
 .illustration {
-    margin-left: 6rem;   /* 100px */
+    margin-left: 9rem;   /* 100px */
 }
 
 .logo {
@@ -1980,6 +1980,12 @@ html{
     margin-top: 2rem; 
     text-align: justify;
     width: 50%;
+}
+
+/* index-page section */
+.index-menu{
+    padding-left: 4rem;
+    padding-right: 4rem;
 }
 
 
