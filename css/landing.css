@@ -100,6 +100,10 @@ html{
     margin-left: 9rem;   /* 100px */
 }
 
+.align-logos{
+    margin-left: -3rem;
+}
+
 .logo {
     display: flex;
     list-style: none;
@@ -110,27 +114,27 @@ html{
 }
 
 .amazon-logo {
-    margin-left: 4rem;   
+    /* margin-left: 4rem;    */
 }
 
 .dribble-logo {
-    margin-left: 2rem;    
+    margin-left: 4rem;    
 }
 
 .hubspot-logo {
-    margin-left: 2rem;    
+    margin-left: 4rem;    
 }
 
 .notion-logo {
-    margin-left: 4rem;   
+    margin-left: 6rem;   
 }
 
 .netflix-logo {
-    margin-left: 4rem;   
+    margin-left: 6rem;   
 }
 
 .zoom-logo {
-    margin-left: 4rem;   
+    margin-left: 6rem;   
 }
 
 .services {
@@ -139,7 +143,7 @@ html{
 }
 
 .services-1 {
-    margin: 4rem 1rem 0 5rem;   
+    margin: 4rem 1rem 0 0rem;   
     background-color: #b9ff66;
     color: #000000;
     padding: 0.3rem 0.3rem;   
@@ -159,27 +163,30 @@ html{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-left: 3rem;   
-    margin-right: 2rem;  
+    /* margin-left: 3rem;    */
+    /* margin-right: 2rem;   */
     margin-top: 3rem;   
 }
 
 .card1 {
     display: flex;
     flex-wrap: wrap;
-    width: 45%;   
+    justify-content: space-around;
+    width: 49%;   
     background-color: #F3F3F3;
     border: 1px solid black;
     box-shadow: 0 0.1rem;   
     border-radius: 50px;   
-    margin-bottom: 1rem;   
+    margin-bottom: 1rem;
+    margin-right: 1.5rem;   
     padding: 2rem 2rem 2rem 3rem;   
 }
 
 .card2 {
     display: flex;
     flex-wrap: wrap;
-    width: 45%;   
+    justify-content: space-around;
+    width: 49%;   
     background-color: #B9FF66;
     border: 1px solid black;
     box-shadow: 0 0.1rem;  
@@ -192,17 +199,20 @@ html{
 .card3 {
     display: flex;
     flex-wrap: wrap;
-    width: 45%;   
+    justify-content: space-around;
+    width: 49%;   
     background-color: #191A23;
     border: 1px solid black;
     border-radius: 50px;   
-    margin-bottom: 1rem;   
+    margin-bottom: 1rem; 
+    margin-right: 1.5rem;    
     padding: 2rem 2rem 2rem 3rem;   
 }
 .card4 {
     display: flex;
     flex-wrap: wrap;
-    width: 45%;   
+    justify-content: space-around;
+    width: 49%;   
     background-color: #F3F3F3;
     border: 1px solid black;
     box-shadow: 0 0.2rem;   
@@ -214,19 +224,22 @@ html{
 .card5 {
     display: flex;
     flex-wrap: wrap;
-    width: 45%;  
+    justify-content: space-around;
+    width: 49%;  
     background-color: #B9FF66;
     border: 1px solid black;
     box-shadow: 0 0.1875rem;   
     border-radius: 50px;   
     margin-bottom: 1rem;   
+    margin-right: 1.5rem;  
     padding: 2rem 2rem 2rem 3rem;   
 }
 
 .card6 {
     display: flex;
     flex-wrap: wrap;
-    width: 45%;   
+    justify-content: space-around;
+    width: 49%;   
     background-color: #191A23;
     border: 1px solid black;
     border-radius: 50px;   
@@ -341,7 +354,7 @@ html{
     display: flex;
     flex-wrap: wrap;
     background-color: #F3F3F3;
-    margin: 2rem 4rem 1rem 4rem; 
+    margin: 2rem 0rem 1rem 0rem; 
     border-radius: 50px;
 }
 
@@ -381,7 +394,7 @@ html{
     display: flex;
     flex-wrap: wrap;
     background-color: #191A23;
-    margin: 2rem 4rem 1rem 4rem;
+    margin: 3rem 0rem 2rem 0rem;
     border-radius: 30px;
 }
 
