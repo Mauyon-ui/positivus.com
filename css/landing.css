@@ -14,7 +14,9 @@ html{
 
 .menu {
     display: flex;
-    padding: 2rem 4rem;  
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 2rem;  
     background-color: #ffffff;
 }
 
@@ -38,7 +40,7 @@ html{
 }
 
 .navigation-bar {
-    margin-left: 20rem;  
+    /* margin-left: 20rem;   */
 }
 
 #nav-1, #nav-2, #nav-3, #nav-4, #nav-5 {
@@ -63,6 +65,8 @@ html{
 
 .navigate {
     display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
     margin-top: 1rem;
 }
 
@@ -97,7 +101,7 @@ html{
 }
 
 .illustration {
-    margin-left: 9rem;   /* 100px */
+    /* margin-left: 9rem;   100px */
 }
 
 .align-logos{
@@ -106,11 +110,17 @@ html{
 
 .logo {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     list-style: none;
 }
 
 #logos, #logo-1, #logo-2, #logo-3, #logo-4, #logo-5, #logo-6 {
-    display: inline;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
 }
 
 .amazon-logo {
@@ -118,15 +128,15 @@ html{
 }
 
 .dribble-logo {
-    margin-left: 4rem;    
+    margin-left: 4.5rem;    
 }
 
 .hubspot-logo {
-    margin-left: 4rem;    
+    margin-left: 5rem;    
 }
 
 .notion-logo {
-    margin-left: 6rem;   
+    margin-left: 6.5rem;   
 }
 
 .netflix-logo {
@@ -434,7 +444,7 @@ html{
 
 .consultation-container {
     background-color: #B9FF66;
-    margin: 2rem 4rem 1rem 4rem;
+    margin: 2rem 0rem 1rem 0rem;
     border-radius: 20px;
     border: 1px solid black;
     box-shadow: 0px 0.2rem; 
@@ -446,14 +456,14 @@ html{
 }
 
 .minus-icon {
-    margin-left: 54rem; 
+    margin-left: 58rem; 
 }
 
 .hr-length {
     background-color: #000000;
     margin: 0.3rem 2rem; 
     height: 1%; 
-    border: none;
+    border: 0.1rem solid black;
 }
 
 .initial-consult {
@@ -478,7 +488,7 @@ html{
 
 .research-container {
     background-color: #F3F3F3;
-    margin: 2rem 4rem 1rem 4rem;
+    margin: 2rem 0rem 1rem 0rem;
     border-radius: 20px;
     border: 1px solid black;
     box-shadow: 0px 0.2rem;
@@ -517,18 +527,29 @@ html{
 .operations {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
 }
 
 .operations-container {
-    width: 27%;
+    width: 32%;
     background-color: #ffffff;
     border: 1px solid black;
     box-shadow: 0px 0.2rem; 
     border-radius: 50px;
-    margin-left: 3rem; 
+    /* margin-left: 3rem;  */
     margin-bottom: 2rem; 
     padding: 0.3rem 1rem 0.3rem; 
+}
+
+.operands{
+    width: 32%;
+    background-color: #ffffff;
+    border: 1px solid black;
+    box-shadow: 0px 0.2rem; 
+    border-radius: 50px;
+    margin-left: 1.5rem;
+    margin-bottom: 2rem; 
+    padding: 0.3rem 1rem 0.3rem;
 }
 
 .hr-operate {
@@ -604,7 +625,7 @@ html{
     background-color: #191A23;
     padding: 1rem 2rem; 
     border-radius: 8px;
-    margin-left: 68rem; 
+    margin-left: 67.5rem; 
     margin-top: 0.3rem; 
     margin-bottom: 2rem; 
     border-width: 0px;
@@ -616,7 +637,7 @@ html{
 }
 
 .testimonial-1 {
-    margin: 2rem 1rem 0 5rem; 
+    margin: 2rem 1rem 0 0rem; 
     background-color: #b9ff66;
     color: #000000;
     padding: 0.3rem; 
@@ -634,7 +655,7 @@ html{
 }
 
 .testimonial-block {
-    margin-left: 4rem; 
+    margin-left: 0rem; 
     margin-top: 3rem; 
 }
 
@@ -644,7 +665,7 @@ html{
 }
 
 .contact2 {
-    margin: 6rem 1rem 0 5rem; 
+    margin: 6rem 1rem 0 0rem; 
     background-color: #b9ff66;
     color: #000000;
     padding: 0.3rem; 
@@ -665,7 +686,7 @@ html{
     display: flex;
     background-color: #F3F3F3;
     border-radius: 50px;
-    margin: 3rem 4rem 2rem 4rem; 
+    margin: 3rem 0rem 2rem 0rem; 
 }
 
 .message-1 {
@@ -733,7 +754,7 @@ html{
 
 .footer-container {
     background-color: #191A23;
-    margin: 2rem 4rem 0 4rem; 
+    margin: 2rem 0rem 0 0rem; 
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
@@ -881,7 +902,7 @@ html{
 }
 
 .servics {
-    margin: 4rem 1rem 0 5rem; 
+    margin: 4rem 1rem 0 0rem; 
     background-color: #b9ff66;
     color: #000000;
     padding: 0.3rem; 
