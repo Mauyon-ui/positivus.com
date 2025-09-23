@@ -767,8 +767,9 @@ html{
 
 .footer-nav {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     padding-top: 2rem;
+    justify-content: flex-start;
 }
 
 .positivus-icon2 {
@@ -796,6 +797,8 @@ html{
 
 .info-spot {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .contact-us {
@@ -844,7 +847,8 @@ html{
     background-color: #292A32;
     border-radius: 20px;
     margin-top: 2rem; 
-    margin-left: 22.5rem; 
+    /* margin-left: 22.5rem;  */
+    margin-right: 6rem;
 }
 
 .subscribe-link {
