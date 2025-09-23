@@ -689,15 +689,19 @@ html{
     margin: 3rem 0rem 2rem 0rem; 
 }
 
+.message-image{
+    overflow-x: hidden;
+    width: 100%;
+}
+
 .message-1 {
     padding-left: 5rem; 
     padding-top: 3rem; 
 }
 
 .msg-post {
-    overflow-x: hidden;
     position: relative;
-    left: 10rem;   
+    left: 23rem;   
 }
 
 
