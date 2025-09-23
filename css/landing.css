@@ -2026,6 +2026,10 @@ html{
     padding-right: 4rem;
 }
 
+.testimonial-image {
+    width: 100%;
+    height: auto;
+}
 
 @media (max-width: 480px) {
     section {
