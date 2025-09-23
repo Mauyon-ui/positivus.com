@@ -364,13 +364,14 @@ html{
 .proposal {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     background-color: #F3F3F3;
     margin: 2rem 0rem 1rem 0rem; 
     border-radius: 50px;
 }
 
-.proposal-image {
-    margin-left: 17rem; 
+.proposal-image { 
+    margin-right: 12rem;
     height: 65%; 
 }
 
@@ -407,26 +408,30 @@ html{
     background-color: #191A23;
     margin: 3rem 0rem 2rem 0rem;
     border-radius: 30px;
+    justify-content: space-around;
 }
 
 .desc-contain2 {
-    margin: 2rem 2rem; /* 30px */
+    margin-top: 2rem;
     color: #ffffff;
     border-right: 1px solid white;
-    padding-right: 3rem; /* 50px */
+    padding-right: 3rem;
+    /* padding-top: 2rem; */
+    margin-bottom: 2rem;
 }
 
 .desc-contain1 {
-    margin: 2rem 4rem; /* 70px */
+    margin: 2rem 0rem;
     color: #ffffff;
     border-right: 1px solid white;
-    padding-right: 3rem; /* 50px */
-    padding-bottom: 2rem; /* 30px */
+    padding-right: 3rem;
+    padding-bottom: 2rem;
+    /* padding-left: 3rem; */
 }
 
 .desc-contain3 {
-    margin: 2rem 2rem;
     color: #ffffff;
+    padding-top: 2rem;
 }
 
 .desc {
@@ -453,12 +458,14 @@ html{
 
 .consult-1 {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     padding: 1rem 2rem; 
 }
 
-.minus-icon {
+/* .minus-icon {
     margin-left: 58rem; 
-}
+} */
 
 .hr-length {
     background-color: #000000;
@@ -478,11 +485,12 @@ html{
 .consult {
     font-size: 1rem; 
     padding-top: 2rem; 
-    padding-left: 0.6rem; 
+    margin-left: -59rem; 
 }
 
 .consult-2 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 2rem 2rem; 
 }
@@ -621,14 +629,17 @@ html{
     margin-top: 1rem;
 }
 
+.proposal-div{
+    margin-left: 67.5rem; 
+    margin-top: 0.3rem; 
+    margin-bottom: 2rem;     
+}
+
 .happen3 {
     color: #ffffff;
     background-color: #191A23;
     padding: 1rem 2rem; 
-    border-radius: 8px;
-    margin-left: 67.5rem; 
-    margin-top: 0.3rem; 
-    margin-bottom: 2rem; 
+    border-radius: 8px;    
     border-width: 0px;
 }
 
@@ -685,6 +696,8 @@ html{
 
 .message-container {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     background-color: #F3F3F3;
     border-radius: 50px;
     margin: 3rem 0rem 2rem 0rem; 
@@ -692,18 +705,18 @@ html{
 
 .message-image{
     overflow-x: hidden;
-    width: 100%;
+    width: 30%;
 }
 
 .message-1 {
     padding-left: 5rem; 
     padding-top: 3rem; 
-    width: 60%;
+    width: 40%;
 }
 
 .msg-post {
     position: relative;
-    transform: translateX(390px);   
+    transform: translateX(2rem);   
 }
 
 
