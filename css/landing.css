@@ -67,7 +67,7 @@ html{
     display: flex; 
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 1rem;
+    margin-top: 4rem;
 }
 
 /* .dig-1 {
@@ -106,6 +106,7 @@ html{
 
 .align-logos{
     margin-left: -3rem;
+    width: 100%;
 }
 
 .logo {
@@ -117,7 +118,7 @@ html{
 
 #logos, #logo-1, #logo-2, #logo-3, #logo-4, #logo-5, #logo-6 {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-between;
     list-style: none;
     align-items: center;
@@ -702,7 +703,7 @@ html{
 
 .msg-post {
     position: relative;
-    left: 23rem;   
+    transform: translateX(390px);   
 }
 
 
@@ -776,12 +777,13 @@ html{
     padding-left: 2rem; 
 }
 
-.nav-container {
+/* .nav-container {
     padding-left: 12rem; 
-}
+} */
 
 .socials {
-    padding-left: 12rem; 
+    /* padding-left: 12rem;  */
+    margin-right: 6rem;
 }
 .red1 {
     list-style-type: none;
