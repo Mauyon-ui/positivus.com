@@ -39,9 +39,9 @@ html{
     padding: 0.3rem 0.2rem;
 }
 
-.navigation-bar {
-    /* margin-left: 20rem;   */
-}
+/* .navigation-bar {
+    margin-left: 20rem;  
+} */
 
 #nav-1, #nav-2, #nav-3, #nav-4, #nav-5 {
     list-style-type: none;
@@ -70,18 +70,18 @@ html{
     margin-top: 1rem;
 }
 
-.dig-1 {
-    /* margin-left: 5rem;    */
-}
+/* .dig-1 {
+    margin-left: 5rem;   
+} */
 
 .digfont {
     font-size: 3.9rem;   
     color: #191A23;
 }
 
-.dig-2 {
-    /* margin-left: 5rem;    */
-}
+/* .dig-2 {
+    margin-left: 5rem;   
+} */
 
 #dig-3 {
     color: #fdfdfd;
@@ -100,9 +100,9 @@ html{
     color: #ffffff; 
 }
 
-.illustration {
-    /* margin-left: 9rem;   100px */
-}
+/* .illustration {
+    margin-left: 9rem;   100px
+} */
 
 .align-logos{
     margin-left: -3rem;
@@ -123,9 +123,9 @@ html{
     align-items: center;
 }
 
-.amazon-logo {
-    /* margin-left: 4rem;    */
-}
+/* .amazon-logo {
+    margin-left: 4rem;   
+} */
 
 .dribble-logo {
     margin-left: 4.5rem;    
