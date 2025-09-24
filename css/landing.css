@@ -794,6 +794,10 @@ html{
     border-radius: 20px;
 }
 
+.form-gap{
+    padding-bottom: 1rem;
+}
+
 .footer-container {
     background-color: #191A23;
     margin: 2rem 0rem 0 0rem; 
