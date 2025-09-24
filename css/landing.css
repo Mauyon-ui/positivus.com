@@ -145,7 +145,7 @@ html{
 }
 
 .zoom-logo {
-    margin-left: 6rem;   
+    margin-left: 7rem;   
 }
 
 .services {
@@ -370,11 +370,18 @@ html{
     background-color: #F3F3F3;
     margin: 2rem 0rem 1rem 0rem; 
     border-radius: 50px;
+    height: 290px;
 }
 
 .proposal-image { 
     margin-right: 12rem;
     height: 65%; 
+}
+
+.proposal-img{
+    width: 300px;
+    height: auto;
+    margin-top: -1.5rem;
 }
 
 .happen {
@@ -507,7 +514,7 @@ html{
 
 .research {
     font-size: 1rem; 
-    padding-left: 0.6rem; 
+    margin-left: -3rem; 
     padding-top: 1rem; 
 }
 
@@ -634,7 +641,8 @@ html{
 .proposal-div{
     margin-left: 67.5rem; 
     margin-top: 0.3rem; 
-    margin-bottom: 2rem;     
+    margin-bottom: 2rem; 
+    width: 15%;    
 }
 
 .happen3 {
