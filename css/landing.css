@@ -150,6 +150,8 @@ html{
 
 .services {
     display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
     margin-bottom: 1rem;
 }
 
@@ -705,18 +707,19 @@ html{
 
 .message-image{
     overflow-x: hidden;
-    width: 30%;
+    width: 50%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .message-1 {
     padding-left: 5rem; 
     padding-top: 3rem; 
-    width: 40%;
+    width: 50%;
 }
 
 .msg-post {
-    position: relative;
-    transform: translateX(2rem);   
+    transform: translateX(18rem);   
 }
 
 
@@ -976,7 +979,7 @@ html{
 .together {
     background-color: #F3F3F3;
     border-radius: 20px;
-    margin: 1rem 8rem 1rem 4rem; 
+    margin: 4rem 0rem 1rem 0rem; 
 }
 
 .together-1 {
@@ -1026,12 +1029,14 @@ html{
 
 .company-impact {
     display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
     margin-top: 2rem; 
 }
 
 .impact-1 {
     width: 20%; 
-    margin-left: 6rem; 
+    /* margin-left: 6rem;  */
 }
 
 .impact-1 .space-top {
@@ -1090,7 +1095,7 @@ html{
     border-left: 1px solid black;
     border-top-left-radius: 20px;
     height: 30%;
-    width: 70%;
+    width: 100%;
 }
 
 .impac {
