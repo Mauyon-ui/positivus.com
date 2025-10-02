@@ -2109,8 +2109,8 @@ html{
 
     .positivus-icon {
         /* padding-left: 0.3rem;  */
-        width: 70%;
-        height: 70%;
+        width: 55%;
+        height: 80%;
         /* width: 25%; */
     }
 
@@ -2219,6 +2219,7 @@ html{
     /* .mb-servit{
         padding-left: 1.5rem;
     } */
+
     .servic {
         text-align: center;
         display: block;
