@@ -2841,6 +2841,11 @@ html{
 
     .mbteamwork-image{
         border-radius: 20px;
+        width: 100%;
+    }
+
+    .mbservices-div{
+        text-align: center;
     }
 
     .impacts-0 {
@@ -2991,9 +2996,9 @@ html{
         /* margin-bottom: 0.6rem; */
     }
 
-    .mbjourney {
+    /* .mbjourney {
         margin-left: 5rem;
-    }
+    } */
 
     .mbjourney-1 {
         display: block;
