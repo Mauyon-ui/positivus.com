@@ -2835,8 +2835,12 @@ html{
     }
 
     .mbtogether-3 {
-        margin-top: 18.8rem;
-        font-size: 0.9rem;
+        /* margin-top: 18.8rem; */
+        font-size: 1rem;
+    }
+
+    .mbteamwork-image{
+        border-radius: 20px;
     }
 
     .impacts-0 {
@@ -2855,8 +2859,8 @@ html{
         color: #000000;
         padding: 0.3rem;
         border-radius: 8px;
-        width: 50%;
-        margin-left: 5.6rem;
+        width: 45%;
+        margin-left: 5.8rem;
     }
     .impacts-2 {
         text-align: center;
@@ -2865,8 +2869,9 @@ html{
         color: #000000;
         padding: 0.3rem;
         border-radius: 8px;
-        width: 55%;
-        margin-left: 5.0rem;
+        width: 50%;
+        margin-left: 5.2rem;
+        margin-top: -1.7rem;
     }
 
     .impacts-3 {
@@ -2900,7 +2905,7 @@ html{
         border-right: 1px solid black;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
-        height: 9.4%;
+        height: 30%;
         width: 100%;
     }
 
@@ -2915,7 +2920,7 @@ html{
         border-right: 1px solid black;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
-        height: 9.4%;
+        height: 30%;
         width: 100%;
     }
 
@@ -2930,7 +2935,7 @@ html{
         border-right: 1px solid black;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
-        height: 9.4%;
+        height: 30%;
         width: 100%;
     }
 
@@ -2945,7 +2950,7 @@ html{
         border-right: 1px solid black;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
-        height: 9.4%;
+        height: 30%;
         width: 100%;
     }
 
@@ -2962,7 +2967,7 @@ html{
         border-right: 1px solid black;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
-        height: 6.3%;
+        height: 30%;
         width: 100%;
     }
 
@@ -2972,17 +2977,22 @@ html{
 
     .impact-line1 {
         display: flex;
-        gap: 0.0rem;
-        margin-bottom: 0.6rem;
+        flex-wrap: nowrap;
+        margin-bottom: 1rem;
     }
     .impact-line2 {
         display: flex;
-        gap: 0rem;
-        margin-bottom: 0.6rem;
+        flex-wrap: nowrap;
+        margin-bottom: 1rem;
+    }
+    .impact-line3 {
+        display: flex;
+        flex-wrap: wrap;
+        /* margin-bottom: 0.6rem; */
     }
 
     .mbjourney {
-        margin-left: 2.5rem;
+        margin-left: 5rem;
     }
 
     .mbjourney-1 {
@@ -3034,18 +3044,26 @@ html{
 
     .vector-flex1 {
         padding-right: 3.1rem;
+        margin-left: 0rem;
+        width: 100%;
     }
 
     .vector-flex2 {
         padding-right: 3.1rem;
+        margin-left: 0rem;
+        width: 100%;
     }
 
     .vector-flex3 {
         padding-right: 3.1rem;
+        margin-left: 0rem;
+        width: 100%;
     }
 
     .vector-flex4 {
         padding-right: 3.1rem;
+        margin-left: 0rem;
+        width: 100%;
     }
 
     .year-1 {
@@ -3057,23 +3075,23 @@ html{
     .year-2 {
         padding-left: 1.9rem;
         padding-bottom: 1.3rem;
-        padding-top: 2.5rem;
+        padding-top: 1.5rem;
     }
 
     .year-3 {
         padding-left: 1.9rem;
         padding-bottom: 1.3rem;
-        padding-top: 2.5rem;
+        padding-top: 1.5rem;
     }
 
     .year-4 {
         padding-left: 1.9rem;
         padding-bottom: 1.3rem;
-        padding-top: 2.5rem;
+        padding-top: 1.5rem;
     }
 
     .mbcore {
-        margin-left: 0.6rem;
+        margin-left: 1.5rem;
     }
 
     .core-1 {
@@ -3136,12 +3154,20 @@ html{
         height: 0.1rem;
     }
 
-    .coreword-2 {
+    /* .coreword-2 {
         padding-bottom: 9.4rem;
-    }
+    } */
 
-    .coreword-3 {
+    /* .coreword-3 {
         padding-bottom: 9.4rem;
+    } */
+
+    .innovation-img{
+        width: 100%;
+    }
+    
+    .collaboration-img{
+        width: 100%;
     }
 
     .founder-remarks {
@@ -3156,7 +3182,7 @@ html{
         /* display: block; */
         font-size: 2.5rem;
         color: #ffffff;
-        padding: 1.9rem 1.9rem 12.5rem 1.9rem;
+        padding: 1.9rem 1.9rem 0rem 1.9rem;
     }
 
     .mbfounder-remarks {
@@ -3169,7 +3195,8 @@ html{
     }
 
     .awardd {
-        margin-left: -1.3rem;
+        display: block;
+        text-align: center;
     }
 
     .awardd-1 {
@@ -3203,26 +3230,30 @@ html{
     .mbaward-1 {
         background-color: #F3F3F3;
         border-radius: 40px;
+        width: 50%;
     }
 
     .mbaward-2 {
         background-color: #F3F3F3;
         border-radius: 40px;
+        width: 50%;
     }
 
     .mbaward-3 {
         background-color: #F3F3F3;
         border-radius: 40px;
+        width: 50%;
     }
 
     .mbaward-4 {
         background-color: #F3F3F3;
         border-radius: 40px;
+        width: 50%;
     }
 
     .mbaward-title {
         font-size: 0.8rem;
-        padding: 9.4rem 1.3rem 0.6rem 1.3rem;
+        padding: 0rem 1.3rem 0.6rem 1.3rem;
     }
 
     .mbaward-main {
@@ -3240,13 +3271,18 @@ html{
     }
 
     .enquiry {
-        background-color: #B9FF66;
-        border-radius: 20px;
-        border: 1px solid black;
-        box-shadow: 0rem 0.2rem;
-        margin: 3.1rem 0rem 1.3rem 0rem;
-        padding: 0rem 0rem 0rem 0rem;
+        display: flex;
+        flex-direction: column;
+        padding: 0rem 0rem;
+        margin-bottom: 4rem;
     }
+
+    .mbenquiry-text{
+        width: 100%;
+        text-align: center;
+        padding-right: 0rem;
+    }
+
     .explore {
         color: #ffffff;
         background-color: #191A23;
@@ -3254,9 +3290,16 @@ html{
         border-radius: 8px;
         border-width: 0rem;
         margin-top: 1.3rem;
-        margin-left: 4.4rem;
+        /* margin-left: 4.4rem; */
         width: 60%;
-        margin-bottom: 15.6rem;
+        /* margin-bottom: 15.6rem; */
+        text-align: center;
+    }
+
+    .enquiry-img{
+        margin-left: 5rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
     }
 
     .career-link {
@@ -3270,10 +3313,7 @@ html{
         text-align: center;
         margin-top: 2.5rem;
     }
-
-
     /* services-mobile */
-
 
 }
 
