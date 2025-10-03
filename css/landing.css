@@ -2898,6 +2898,12 @@ html{
         display: block;
     }
 
+    .mbaward-img {
+        padding-top: 1rem;
+        padding-left: 5rem;
+        padding-right: 3rem;
+    }
+
     .mbimpact-1 {
         width: 60%;
         text-align: center;
@@ -3222,12 +3228,14 @@ html{
 
     .container-1 {
         display: flex;
+        flex-direction: column;
         gap: 0.6rem;
         margin-top: 1.3rem;
     }
 
     .container-2 {
         display: flex;
+        flex-direction: column;
         gap: 0.6rem;
         margin-top: 0.6rem;
     }
@@ -3235,30 +3243,31 @@ html{
     .mbaward-1 {
         background-color: #F3F3F3;
         border-radius: 40px;
-        width: 50%;
+        width: 100%;
     }
 
     .mbaward-2 {
         background-color: #F3F3F3;
         border-radius: 40px;
-        width: 50%;
+        width: 100%;
     }
 
     .mbaward-3 {
         background-color: #F3F3F3;
         border-radius: 40px;
-        width: 50%;
+        width: 100%;
     }
 
     .mbaward-4 {
         background-color: #F3F3F3;
         border-radius: 40px;
-        width: 50%;
+        width: 100%;
     }
 
     .mbaward-title {
-        font-size: 0.8rem;
+        font-size: 1.1rem;
         padding: 0rem 1.3rem 0.6rem 1.3rem;
+        text-align: center;
     }
 
     .mbaward-main {
