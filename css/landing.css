@@ -2900,8 +2900,11 @@ html{
 
     .mbaward-img {
         padding-top: 1rem;
-        padding-left: 5rem;
-        padding-right: 3rem;
+        /* padding-left: 5rem; */
+        /* padding-right: 3rem; */
+    }
+    .mbaward-image {
+        text-align: center;
     }
 
     .mbimpact-1 {
