@@ -2,8 +2,11 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Space Grotesk", sans-serif;
-    /* scroll-behavior: smooth; */
-}   
+}  
+
+p{
+    margin-bottom: 0rem;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -190,7 +193,7 @@ html{
     border: 1px solid black;
     box-shadow: 0 0.1rem;   
     border-radius: 50px;   
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     margin-right: 1.5rem;   
     padding: 2rem 2rem 2rem 3rem;   
 }
@@ -204,7 +207,7 @@ html{
     border: 1px solid black;
     box-shadow: 0 0.1rem;  
     border-radius: 50px;   
-    margin-bottom: 1rem;   
+    margin-bottom: 1.5rem;   
     margin-left: 0rem;
     padding: 2em 2rem 2rem 3rem;   
 }
@@ -217,7 +220,7 @@ html{
     background-color: #191A23;
     border: 1px solid black;
     border-radius: 50px;   
-    margin-bottom: 1rem; 
+    margin-bottom: 1.5rem; 
     margin-right: 1.5rem;    
     padding: 2rem 2rem 2rem 3rem;   
 }
@@ -230,7 +233,7 @@ html{
     border: 1px solid black;
     box-shadow: 0 0.2rem;   
     border-radius: 50px;   
-    margin-bottom: 1rem; 
+    margin-bottom: 1.5rem; 
     padding: 2rem 2rem 2rem 3rem;   
 }
 
@@ -243,7 +246,7 @@ html{
     border: 1px solid black;
     box-shadow: 0 0.1875rem;   
     border-radius: 50px;   
-    margin-bottom: 1rem;   
+    margin-bottom: 1.5rem;   
     margin-right: 1.5rem;  
     padding: 2rem 2rem 2rem 3rem;   
 }
@@ -256,7 +259,7 @@ html{
     background-color: #191A23;
     border: 1px solid black;
     border-radius: 50px;   
-    margin-bottom: 1rem;   
+    margin-bottom: 1.5rem;   
     padding: 2rem 2rem 2rem 3rem;  
 }
 
@@ -1485,6 +1488,13 @@ html{
 }
 
 /* services page */
+.user-card{
+    width: 49%;
+    margin-left: 1.5rem;
+    margin-right: 0rem;
+
+}
+
 .back-container {
     display: flex;
 }
@@ -1502,7 +1512,7 @@ html{
     border-radius: 30px;
     display: flex;
     justify-content: space-between;
-    margin: 3rem 7rem 1rem 4rem; 
+    margin: 3rem 0rem 1rem 0rem; 
 }
 .seo-icon {
     padding: 3rem 0 0 3rem; 
@@ -1538,7 +1548,7 @@ html{
     background-color: #F3F3F3;
     display: flex;
     border-radius: 30px;
-    margin: 3rem 7rem 0.6rem 4rem; 
+    margin: 3rem 0rem 0.6rem 0rem; 
 }
 .seo-process-icon {
     padding-top: 2rem; 
@@ -1572,7 +1582,7 @@ html{
     border: 1px solid black;
     box-shadow: 0.06rem 0.2rem; 
     border-radius: 30px;
-    margin: 2rem 6rem 0.6rem 5rem; 
+    margin: 2rem 0rem 0.6rem 0rem; 
     padding: 3rem; 
 }
 .elevate-hr {
@@ -1600,6 +1610,10 @@ html{
 .start-link {
     text-decoration: none;
     color: #000000;
+}
+
+.mbseo-container {
+    display: none;
 }
 
 /* usecase */
@@ -2228,7 +2242,7 @@ html{
         padding-right: 0;
     }
     .services{
-        display: inline;
+        display: none;
         /* margin-left: 2rem; */
     }
 
@@ -3232,16 +3246,16 @@ html{
     .container-1 {
         display: flex;
         flex-direction: column;
-        gap: 0.6rem;
+        row-gap: 2rem;
         margin-top: 1.3rem;
     }
 
-    .container-2 {
+    /* .container-2 {
         display: flex;
         flex-direction: column;
-        gap: 0.6rem;
+        row-gap: 2rem;
         margin-top: 0.6rem;
-    }
+    } */
 
     .mbaward-1 {
         background-color: #F3F3F3;
@@ -3253,6 +3267,7 @@ html{
         background-color: #F3F3F3;
         border-radius: 40px;
         width: 100%;
+        row-gap: 2rem;
     }
 
     .mbaward-3 {
@@ -3331,6 +3346,71 @@ html{
         margin-top: 2.5rem;
     }
     /* services-mobile */
+    .back-icon {
+        margin: 1rem 0.6rem 0 0rem;
+    }
+
+    .back-btn{
+        margin-top: 1.5rem;
+    }
+
+    .seo-container {
+        display: none;
+    }
+
+    .mbseo-container {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        background-color: #191A23;
+        border-radius: 30px;
+        margin: 3rem 0rem 1rem 0rem;
+    }
+
+    .seo-icon {
+        padding: 3rem 0 0 0rem;
+    }
+
+    .mbseo-title{
+        padding-top: 3rem;
+    }
+
+    .mb-featured{
+        color: #B9FF66;
+    }
+    .mbseo-title1{
+        color: #ffffff;
+    }
+
+    .mb-servit{
+        display: none;
+    }
+
+    .mb-servit1{
+        text-align: center;
+        font-size: 1.9rem;
+        margin-top: 3.1rem;
+        background-color: #b9ff66;
+        color: #000000;
+        padding: 0.3rem;
+        border-radius: 8px;
+        width: 60%;
+        margin-left: 5.4rem;
+    }
+
+    .mb-servit2{
+        text-align: center;
+        font-size: 1.9rem;
+        background-color: #b9ff66;
+        color: #000000;
+        padding: 0.3rem;
+        border-radius: 8px;
+        width: 50%;
+        margin-left: 6rem;
+        margin-top: -1rem;
+    }
+
+
 
 }
 
