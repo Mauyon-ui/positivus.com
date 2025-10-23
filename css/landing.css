@@ -1616,6 +1616,10 @@ html{
     display: none;
 }
 
+.mbseo-process-text2{
+    display: none;
+}
+
 /* usecase */
 .featured-container {
     display: flex;
@@ -2106,6 +2110,10 @@ html{
     width: 50%;
 }
 
+.mbjourney-2{
+    display: none;
+}
+
 /* index-page section */
 .index-menu{
     padding-left: 4rem;
@@ -2242,8 +2250,8 @@ html{
         padding-right: 0;
     }
     .services{
-        display: none;
-        /* margin-left: 2rem; */
+        /* display: none; */
+        margin-left: 2rem;
     }
 
     .services-2{
@@ -2859,7 +2867,12 @@ html{
     }
 
     .mbservices-div{
-        text-align: center;
+        margin-left: 3rem;
+        /* text-align: center; */
+    }
+
+    .mbservy{
+        margin-left: 0rem;
     }
 
     .impacts-0 {
@@ -2890,7 +2903,7 @@ html{
         border-radius: 8px;
         width: 50%;
         margin-left: 5.2rem;
-        margin-top: -1.7rem;
+        margin-top: -1.2rem;
     }
 
     .impacts-3 {
@@ -2965,6 +2978,7 @@ html{
         border-top-right-radius: 20px;
         height: 30%;
         width: 100%;
+        margin-top: 1rem;
     }
 
     .mbimpact-4 {
@@ -2980,6 +2994,7 @@ html{
         border-top-right-radius: 20px;
         height: 30%;
         width: 100%;
+        margin-top: 1rem;
     }
 
     .mbimpact-5 {
@@ -2997,6 +3012,7 @@ html{
         border-top-right-radius: 20px;
         height: 30%;
         width: 100%;
+        margin-top: 1rem;
     }
 
     .impac {
@@ -3028,6 +3044,15 @@ html{
         text-align: center;
         font-size: 0.9rem;
         margin-top: 1.3rem;
+    }
+
+    .mbjourney-2 {
+        display: block;
+        text-align: center;
+        font-size: 0.9rem;
+        margin-top: 1.3rem;
+        margin-left: -3rem;
+        margin-right: -2rem;
     }
 
     .first-year {
@@ -3408,6 +3433,35 @@ html{
         width: 50%;
         margin-left: 6rem;
         margin-top: -1rem;
+    }
+
+    .seo-process-text2{
+        display: none;
+    }
+
+    .mbseo-process-text2{
+        display: block;
+        font-size: 0.9rem;
+    }
+
+    .mbseo-icon{
+        width: 30%;
+    }
+
+    .mbseo-icon2{
+        width: 70%;
+    }
+
+    .seo-process-text {
+        padding-top: 2rem;
+        padding-left: 1rem;
+        padding-bottom: 2rem;
+    }
+
+    .seo-process-icon {
+        padding-top: 2rem;
+        padding-left: 1rem;
+        padding-bottom: 1rem;
     }
 
 
