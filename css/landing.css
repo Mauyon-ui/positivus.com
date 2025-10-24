@@ -1492,7 +1492,6 @@ html{
     width: 49%;
     margin-left: 1.5rem;
     margin-right: 0rem;
-
 }
 
 .back-container {
@@ -1549,6 +1548,9 @@ html{
     display: flex;
     border-radius: 30px;
     margin: 3rem 0rem 0.6rem 0rem; 
+}
+.mbseo-process-text2{
+        display: none;
 }
 .seo-process-icon {
     padding-top: 2rem; 
@@ -1617,6 +1619,10 @@ html{
 }
 
 .mbseo-process-text2{
+    display: none;
+}
+
+.mbdescription-container{
     display: none;
 }
 
@@ -2114,6 +2120,18 @@ html{
     display: none;
 }
 
+.mb-serving2{
+    display: none;
+}
+
+.user-card{
+    margin-left: 0;
+}
+
+.mbservice-texts{
+    display: none;
+}
+
 /* index-page section */
 .index-menu{
     padding-left: 4rem;
@@ -2455,7 +2473,7 @@ html{
     }
 
     .case {
-        /* margin-left: 2.5rem; */
+        margin-left: 4.5rem;
         font-size: 1.9rem;
     }
 
@@ -3463,6 +3481,36 @@ html{
         padding-left: 1rem;
         padding-bottom: 1rem;
     }
+
+    .mbdescription-container {
+        display: block;
+        background-color: #191A23;
+        margin: 3rem 0rem 2rem 0rem;
+        border-radius: 30px;
+        justify-content: space-around;
+    }
+
+    .mbdesc-contain1{
+        margin: 2rem 0rem;
+        color: #ffffff;
+        padding: 3rem;
+    }
+
+    .mb-serving{
+        margin-left: 1rem;
+    }
+
+    .mb-serving2{
+        display: block;
+        text-align: center;
+        font-size: 0.9rem;
+        margin-top: 1.3rem;
+        margin-left: 1rem;
+        margin-right: -2rem;
+    }
+
+
+
 
 
 
